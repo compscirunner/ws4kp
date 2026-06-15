@@ -1,7 +1,7 @@
 {
   "name": "WeatherStar 4000+",
   "description": "The classic 90s Weather Channel WeatherStar 4000 local forecast, reimagined for the web. Current conditions, local & extended forecast, radar, regional maps and almanac — auto-cycling in kiosk mode. Pulls live US data from api.weather.gov, no API key.",
-  "url": "https://compscirunner.github.io/ws4kp/?kiosk=true&settings-units-select=us&latLonQuery=Orlando%20International%20Airport%2C%20Orlando%2C%20FL%2C%20USA&latLon=%7B%22lat%22%3A28.431%2C%22lon%22%3A-81.3076%7D",
+  "url": "https://leafrobotics.dev/ws4kp/?kiosk=true&latLonQuery=Orlando%20International%20Airport%2C%20Orlando%2C%20FL%2C%20USA&latLon=%7B%22lat%22%3A28.431%2C%22lon%22%3A-81.3076%7D",
   "dwellSec": 0,
   "aspect": "16:9",
   "author": "Matt Walsh (netbymatt), packaged for Portal by compscirunner",
