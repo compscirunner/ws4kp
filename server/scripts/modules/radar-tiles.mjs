@@ -81,7 +81,9 @@ const setTiles = (data) => {
 		}
 
 		// set the image source and size
-		const newSource = `/images/maps/radar/${tileName}-${baseMapTiles[index]}.webp`;
+		// Relative path so radar base maps resolve under a subpath deployment
+		// (e.g. GitHub Pages /ws4kp/), not just at the origin root.
+		const newSource = `images/maps/radar/${tileName}-${baseMapTiles[index]}.webp`;
 		if (elem.src === newSource) return;
 		elem.src = newSource;
 	};
