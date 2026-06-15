@@ -21,6 +21,7 @@
   "aspect": "16:9",
   "author": "Matt Walsh (netbymatt), packaged for Portal by compscirunner",
   "homepage": "https://github.com/netbymatt/ws4kp",
+  "screenshots": ["screenshot.jpg"],
   "country": "US",
   "permissions": [],
   "note": "dwellSec 0 = the host carousel should NOT auto-advance; WeatherStar self-cycles through its own displays. Location is entered in the Portal Widgets gallery at add-time."
